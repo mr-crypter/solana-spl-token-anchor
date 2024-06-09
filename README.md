@@ -12,17 +12,17 @@ Before you begin, ensure you have the following software installed:
 
 ## Project Structure
 
-my_spl_token_contract/
+solana-spl-token-anchor/
 ├── Anchor.toml
 ├── Cargo.lock
 ├── Cargo.toml
 ├── migrations/
 ├── programs/
-│ └── my_spl_token_contract/
+│ └── solana_spl_token_anchor/
 │ └── src/
 │ └── lib.rs
 ├── tests/
-│ └── my_spl_token_contract.ts
+│ └── solana_spl_token_anchor.ts
 └── README.md
 
 ## Getting Started
