@@ -11,6 +11,7 @@ Before you begin, ensure you have the following software installed:
 - **Anchor**: [Installation Guide](https://project-serum.github.io/anchor/getting-started/installation.html)
 
 ## Project Structure
+
 my_spl_token_contract/
 ├── Anchor.toml
 ├── Cargo.lock
@@ -40,15 +41,15 @@ my_spl_token_contract/
     ```bash
     solana-test-validator
 
-    In a separate terminal, run:
+4. In a separate terminal, run:
      ```bash
      solana config set --url localhost
 
-4. Deploy the smart contract:
+5. Deploy the smart contract:
      ```bash
     anchor deploy 
 
-5. Run the tests:
+6. Run the tests:
      ```bash
      anchor test
 
