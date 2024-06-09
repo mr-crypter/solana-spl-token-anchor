@@ -30,7 +30,7 @@ solana-spl-token-anchor/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/mr-crypter/spl-token-contract.git
+   git clone https://github.com/mr-crypter/solana-spl-token-anchor.git
    cd spl-token-contract
 
 2. Build the smart contract:
