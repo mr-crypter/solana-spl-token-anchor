@@ -8,12 +8,12 @@ declare_id!("2DCEkar8pu1ipZNSKNU6iRktaWSLDmDgC82nsvMGSeZg");
 pub mod spl_token_project {
     use super::*;
 
-    pub fn mint(ctx: Context<MintToken>, amount: u64) -> Result<()> {
+    pub fn mint(_ctx: Context<MintToken>, _amount: u64) -> Result<()> {
         // Mint implementation here
         Ok(())
     }
 
-    pub fn transfer(ctx: Context<TransferToken>, amount: u64) -> Result<()> {
+    pub fn transfer(_ctx: Context<TransferToken>, _amount: u64) -> Result<()> {
         // Transfer implementation here
         Ok(())
     }
@@ -25,6 +25,7 @@ pub struct MintToken<'info> {
     pub mint: Account<'info, Mint>,
     #[account(mut)]
     pub to: Account<'info, TokenAccount>,
+    
     #[account(signer)]
     pub authority: AccountInfo<'info>,
     pub token_program: Program<'info, Token>,
